@@ -2,21 +2,21 @@ x = raw_input("Enter value\t")
 
 if "+" in x:
     start = x[:x.index("+")]
-    finish = x[x.index("+"):]
+    finish = x[x.index("+")+1:]
     print float(start)+float(finish)
-if "-" in x:
+elif "-" in x:
     start = x[:x.index("-")]
-    finish = x[x.index("-"):]
+    finish = x[x.index("-")+1:]
     print float(start) - float(finish)
-if "*" in x:
+elif "*" in x:
     start = x[:x.index("*")]
-    finish = x[x.index("*"):]
+    finish = x[x.index("*")+1:]
     print float(start) * float(finish)
-if "/" in x:
+elif "/" in x:
     start = x[:x.index("/")]
-    finish = x[x.index("/"):]
+    finish = x[x.index("/")+1:]
     print float(start) / float(finish)
-if "%" in x:
+elif "%" in x:
     start = x[:x.index("%")]
-    finish = x[x.index("%"):]
+    finish = x[x.index("%")+1:]
     print float(start) % float(finish)
