@@ -7,16 +7,16 @@ if "+" in x:
 if "-" in x:
     start = x[:x.index("-")]
     finish = x[x.index("-"):]
-    print float(start) + float(finish)
+    print float(start) - float(finish)
 if "*" in x:
     start = x[:x.index("*")]
     finish = x[x.index("*"):]
-    print float(start) + float(finish)
+    print float(start) * float(finish)
 if "/" in x:
     start = x[:x.index("/")]
     finish = x[x.index("/"):]
-    print float(start) + float(finish)
+    print float(start) / float(finish)
 if "%" in x:
     start = x[:x.index("%")]
     finish = x[x.index("%"):]
-    print float(start) + float(finish)
+    print float(start) % float(finish)
