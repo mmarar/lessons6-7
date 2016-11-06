@@ -5,13 +5,11 @@ znak = ""
 input_correct = False
 
 while input_correct == False:
-    #try:
     x = int(input("Enter number on horizontal\t"))
     y = int(input("Enter number on vertical\t"))
     znak = raw_input("Select mark: X or O\t").upper()
-    #print "%s,%s:%s" % (x, y, znak)
+    
     if x < 1 or x > 3 or y < 1 or y > 3 or znak != "0" and znak != "X":
-
         print (u"Значения X и Y должны быть от 1 до 3")
     else:
         print "%s,%s:%s" % (x, y, znak)
