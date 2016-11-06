@@ -1,0 +1,22 @@
+x = raw_input("Enter value\t")
+
+if "+" in x:
+    start = x[:x.index("+")]
+    finish = x[x.index("+"):]
+    print x[x.index("+")]
+if "-" in x:
+    start = x[:x.index("-")]
+    finish = x[x.index("-"):]
+    print x[x.index("-")]
+if "*" in x:
+    start = x[:x.index("*")]
+    finish = x[x.index("*"):]
+    print x[x.index("*")]
+if "/" in x:
+    start = x[:x.index("/")]
+    finish = x[x.index("/"):]
+    print x[x.index("/")]
+if "%" in x:
+    start = x[:x.index("%")]
+    finish = x[x.index("%"):]
+    print x[x.index("%")]
